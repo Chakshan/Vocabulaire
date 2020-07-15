@@ -16,7 +16,7 @@ class MissionCompleteViewController: UIViewController {
     }
     
     @IBAction func returnHomePressed(_ sender: UIButton) {
-        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
     }
     
 

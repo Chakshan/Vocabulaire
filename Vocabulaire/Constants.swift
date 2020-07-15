@@ -10,4 +10,6 @@ import Foundation
 
 struct K {
     static let missionCompleteSegue = "SetFinished"
+    static let setCellIdentifier = "SetCell"
+    static let setSelectedSegue = "SetSelected"
 }
