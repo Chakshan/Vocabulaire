@@ -18,10 +18,6 @@ class SetListViewController: UITableViewController {
         
     }
     
-    @IBAction func returnHomePressed(_ sender: UIButton) {
-        
-    }
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemsArray.count
     }
